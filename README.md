@@ -1,36 +1,24 @@
-# Sara Elamir — Portfolio
+# Sara El-Amir | Portfolio
 
-React + Vite + Bootstrap (react-bootstrap) + JavaScript.
-Dark theme, scroll animations, bilingual (English / Arabic with full RTL).
+My personal portfolio website: a short intro about me, the projects I've built, my experience and ways to get in touch.
 
-## Run
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build in /dist
-```
+🔗 **Live site:** [saraelamir-prtofolio.vercel.app](https://saraelamir-prtofolio.vercel.app/)
 
-## 1) Add your photo
-Put one file in `public/images/` named `sara.jpg` (or `sara.png` / `sara.webp`).
-Best: portrait, 4:5 ratio (for example 800×1000). Until it exists, a clean "SE" monogram is shown.
+## About
 
-## 2) Add project screenshots
-Put images in `public/screenshots/`. Each project lists its files in `src/data/content.js`:
+I'm Sara, a Full-Stack Developer who builds responsive web apps with React, Next.js, Node.js and MongoDB. This site collects my work: each project has screenshots, a demo, its features and its tech stack.
 
-```js
-images: ['screenshots/lms.png'],
-```
-Add more files to get a slider inside the project window:
-```js
-images: ['screenshots/lms.png', 'screenshots/lms-2.png', 'screenshots/lms-3.png'],
-```
-Tip: 16:10 or 16:9 screenshots look best. Optional short demo: `video: 'screenshots/lms.mp4'`.
+## Features
 
-## 3) Edit content
-Everything (info, projects, services, experience, text in both languages) is in `src/data/content.js`.
-Check each project's `port` and `run` commands so they match how you really start it
-(for example `npm start` instead of `npm run dev`).
+- Projects section with image sliders, demo links and "run locally" steps
+- Available in English and Arabic, with full RTL support
+- Fully responsive, from phones to large screens
 
-## Deploy (free)
-- Netlify: run `npm run build`, then drag the `dist` folder to app.netlify.com/drop
-- GitHub Pages: push the contents of `dist` to a `gh-pages` branch.
+## Built with
+
+React, Vite, Bootstrap, React-Bootstrap
+
+## Contact
+
+- GitHub: [@saraelamir](https://github.com/saraelamir)
+- LinkedIn: [Sara El-Amir](https://www.linkedin.com/in/saraa-elamir/)
